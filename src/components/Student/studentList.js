@@ -23,7 +23,7 @@ const StudentList = ({ data }) => {
     return (
       <>
         <div className="App">
-          <Card sx={{ width: "310px", marginBottom: "20px" }}>
+          <Card sx={{ width: "80px",marginBottom: "20px" ,marginLeft:"60px",marginTop:"20px", backgroundColor:"skyblue"}}>
             {data &&
               Array.isArray(data) &&
               data.map((stud) => (
